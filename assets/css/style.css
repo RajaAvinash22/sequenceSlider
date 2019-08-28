@@ -1,0 +1,35 @@
+
+#slider
+{
+  width: 111px;
+  height: auto;
+  overflow: hidden;
+  margin-left: 40px;
+}
+ul {
+  padding: 0;
+  margin-left: 0px;
+  overflow: hidden;
+}
+li
+{
+  display : inline-block;
+}
+#slider.slides
+{
+  display: inline-block;
+  width: 200px;
+  height:400px;
+  margin : 0;
+  padding :0;
+  
+}
+
+#slider.slides
+{
+  float:left;
+  list-style-type: none;
+  width: 400px;
+  height: 400px;
+}
+
