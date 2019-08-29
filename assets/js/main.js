@@ -15,7 +15,7 @@ $(function () {
 
     function startSlider() {
         interval = setInterval(function () {
-            if ((marginLeft defaultMargingLeft) <= lastMargingLeft) {
+            if ((marginLeft + defaultMargingLeft) <= lastMargingLeft) {
                 marginLeft += defaultMargingLeft;
               //  console.log(marginLeft, defaultMargingLeft);
             }
